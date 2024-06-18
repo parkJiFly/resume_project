@@ -21,7 +21,7 @@ public class BaseEntity {
 	 * ID
 	 */
 	@TableId(value = "id", type = IdType.ASSIGN_ID)
-	private Long id;
+	private String id;
 
 	@TableField(exist = false)
 	private Long pageSize;
